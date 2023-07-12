@@ -1,0 +1,151 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+}
+.hero-text {
+  background-image: url("https://images.unsplash.com/photo-1501504905252-473c47e087f8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1074&q=80");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+.heroimg {
+  width: 100%;
+  height: 100vh;
+  display: none;
+}
+.newhero {
+  text-align: left;
+}
+.hero-text {
+  text-align: center;
+  padding-top: 80px;
+  padding-left: 400px;
+  font-weight: 400;
+  line-break: initial;
+}
+.hero .hi {
+  font-size: 35px;
+}
+.black-container {
+  background-color: #000;
+  padding: 20px;
+  margin-top: 29px;
+  color: white;
+}
+.black-box {
+  font-size: 70px;
+  font-weight: 400;
+  text-align: center;
+}
+.black-box span {
+  font-size: 96px;
+}
+.card-container {
+  padding-top: 20px;
+  display: flex;
+  margin-left: 280px;
+  flex-wrap: wrap;
+  gap: 70px;
+}
+.card-container .card {
+  height: 350px;
+  max-width: 300px;
+  text-align: center;
+}
+.card-container .card-content P {
+  text-align: left;
+  font-style: italic;
+  font-family: 400;
+}
+.card-container .cardimg {
+  width: 278px;
+  height: 200px;
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+}
+.card-container .card-content {
+  width: 250px;
+  padding-left: 30px;
+  font-weight: 400;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.card-container .card {
+  border: 1px solid grey;
+
+  border-radius: 15px;
+  text-align: center;
+}
+.card-container .card-content p {
+  padding-top: 10px;
+}
+.card-container .card-content h3 {
+  padding-top: 5px;
+  padding-right: 80px;
+}
+.card-container {
+  display: flex;
+}
+.bottom {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 50px;
+}
+.bottom .contact {
+  background-color: orange;
+  height: 150px;
+  width: 450px;
+  text-align: center;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+.bottom .contact-text {
+  padding-top: 23px;
+}
+.bottom .me {
+  padding-top: 8px;
+}
+.bottom .about-text {
+  padding-top: 23px;
+}
+.bottom .about {
+  background-color: skyblue;
+  width: 450px;
+  text-align: center;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+@media screen  and (max-width:786px){
+  .hero-text {
+      background-image: url("https://images.unsplash.com/photo-1501504905252-473c47e087f8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1074&q=80");
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 50vh;
+}
+.black-box span {
+  font-size: 30px;
+}
+.card-container {
+  padding-top: 20px;
+  display: flex;
+  margin-left: 150px;
+  flex-wrap: wrap;
+  gap: 70px;
+}
+.bottom .contact {
+  background-color: orange;
+  height: 150px;
+  width: 350px;
+  text-align: center;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+.bottom .about {
+  background-color: skyblue;
+  width: 350px;
+  text-align: center;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+}
