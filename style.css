@@ -17,16 +17,18 @@
 }
 .newhero {
   text-align: left;
+  padding-right: 10rem;
+  padding-top: 12rem;
 }
 .hero-text {
-  text-align: center;
-  padding-top: 80px;
-  padding-left: 400px;
+ align-items: flex-start;
+  display: flex;
+  justify-content: flex-end;
   font-weight: 400;
   line-break: initial;
 }
 .hero .hi {
-  font-size: 35px;
+  font-size: 60px;
 }
 .black-container {
   background-color: #000;
@@ -45,7 +47,10 @@
 .card-container {
   padding-top: 20px;
   display: flex;
-  margin-left: 280px;
+ width: 80%;
+ margin: auto;
+ justify-content: space-between;
+align-items: center;
   flex-wrap: wrap;
   gap: 70px;
 }
@@ -91,6 +96,7 @@
   display: flex;
   justify-content: space-around;
   padding-top: 50px;
+  gap: 16px;
 }
 .bottom .contact {
   background-color: orange;
@@ -123,20 +129,28 @@
       background-size: cover;
       height: 50vh;
 }
+.newhero{
+  padding-top: 0.5rem;
+}
+.hero .hi {
+  font-size: 35px;
+}
+
 .black-box span {
   font-size: 30px;
 }
+
 .card-container {
   padding-top: 20px;
   display: flex;
-  margin-left: 150px;
+  justify-content: center;
   flex-wrap: wrap;
   gap: 70px;
 }
 .bottom .contact {
   background-color: orange;
   height: 150px;
-  width: 350px;
+  width: 300px;
   text-align: center;
   border-top-left-radius: 8px;
   border-top-right-radius: 8px;
